@@ -31,7 +31,7 @@ See the requirements.txt
 Merge Development into Main is created by the following command: 
 git checkout main
 git merge development
-# Or for rebase:
+Or for rebase:
 git checkout development
 git rebase main
 git checkout main
