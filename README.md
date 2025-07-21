@@ -48,11 +48,7 @@ python matrix.py
 1. **Naive Implementation**: Basic triple-nested loop implementation.
 2. **Optimised Implementation**: Uses list comprehensions for better performance.
 
-## Performance Improvements
 
-After profiling with various matrix sizes (10x10 to 200x200), the optimised version showed:
-- 15-20% faster for smaller matrices (10x10 to 50x50)
-- 25-30% faster for larger matrices (100x100 to 200x200)
 
 The improvement comes from Python's more efficient handling of list comprehensions compared to explicit loops.
 
