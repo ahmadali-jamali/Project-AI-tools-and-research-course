@@ -2,15 +2,15 @@
 
 
 
-#In this practice Python language in windows is used
+#In this practice Python language is used on Windows
  
 #Step by step of the repository:
 
- At first the new directory should be created by bellow command: 
+ At first, the new directory should be created by the following command: 
 mkdir matrix-multiplication
 cd matrix-multiplication
 
-initialized repository created by bellow command:
+initialised repository created by below command:
 git init
 
 The basic version of the code is created in Python.
@@ -22,13 +22,13 @@ the .gitignore file created
 Create develop brache
 git checkout -b development
 
-the profile_matrix.py created as Make Improvements in Development Branch
+The profile_matrix.py was created to Make Improvements in the Development Branch
 Check the profile_matrix file 
 
-The requirement file as text file is created 
+The requirement file, as a text file, is created 
 See the requirements.txt
 
-Merge Development into Main is created by bellow command: 
+Merge Development into Main is created by the following command: 
 git checkout main
 git merge development
 # Or for rebase:
@@ -38,19 +38,19 @@ git checkout main
 git merge development
 
 Create README.md 
-This repository contains implementations of matrix multiplication in Python, with performance optimizations.
+This repository contains implementations of matrix multiplication in Python, with performance optimisations.
 
-To run the program insert the bellow command:
+To run the program, insert the following command:
 python matrix.py
 
 ## Implementations
 
 1. **Naive Implementation**: Basic triple-nested loop implementation.
-2. **Optimized Implementation**: Uses list comprehensions for better performance.
+2. **Optimised Implementation**: Uses list comprehensions for better performance.
 
 ## Performance Improvements
 
-After profiling with various matrix sizes (10x10 to 200x200), the optimized version showed:
+After profiling with various matrix sizes (10x10 to 200x200), the optimised version showed:
 - 15-20% faster for smaller matrices (10x10 to 50x50)
 - 25-30% faster for larger matrices (100x100 to 200x200)
 
