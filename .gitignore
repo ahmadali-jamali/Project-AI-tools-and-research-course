@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+venv/
+.venv/
+env/
+dist/
+build/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+
+# System
+.DS_Store
+Thumbs.db
+
+# Profiling/Output
+*.prof
+*.out
