@@ -49,9 +49,6 @@ python matrix.py
 2. **Optimised Implementation**: Uses list comprehensions for better performance.
 
 
-
-The improvement comes from Python's more efficient handling of list comprehensions compared to explicit loops.
-
 ## Usage
 
 1. Install dependencies:
